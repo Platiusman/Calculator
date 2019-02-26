@@ -9,9 +9,9 @@ package cse360assign2;
 
 /**
  * This class is a calculator that does addition, subtraction, 
- * division, multiplication, returns a total integer and a history.
+ * division, multiplication, returns a total integer and a history of actions.
  * @author Isaac Walker
- * @version This is version 2. Has the basic operations and total functions.
+ * @version This is version 3. Has the basic operations, total return, and history.
  */
 public class Calculator
 {
