@@ -34,47 +34,55 @@ public class Calculator
 	 */
 	public int getTotal ()
 	{
-		return 0;
+		return total;
 	}
 	
 	
 	/**
-	 * Does addition.
+	 * Adds the value to the total.
 	 * @param is the value to be added.
 	 */
 	public void add (int value)
 	{
-		
+		total = total + value;
 	}
 	
 	
 	/**
-	 * Does subtraction.
+	 * Subtracts the value from the total.
 	 * @param value is the value to be subtracted.
 	 */
 	public void subtract (int value)
 	{
-		
+		total = total - value;
 	}
 	
 	
 	/**
-	 * Does multiplication.
+	 * Multiplies the total times the value.
 	 * @param value the value to multiplied.
 	 */
 	public void multiply (int value)
 	{
-		
+		total = total * value;
 	}
 	
 	
 	/**
-	 * Does division.
+	 * Divides the total by the value via integer divison.
+	 * If value is 0, then total equals 0.
 	 * @param is the value to be divided.
 	 */
 	public void divide (int value)
 	{
-		
+		if(value == 0)
+		{
+			total = 0;
+		}
+		else
+		{
+			total = total / value;
+		}
 	}
 	
 	
